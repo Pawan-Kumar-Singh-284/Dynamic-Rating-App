@@ -1,0 +1,76 @@
+.welcomeBox {
+    width: 408px;
+    height: 410px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: var(
+      --black-gradient,
+      radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #181e27 100%)
+    );
+    padding: 45px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .welcomeBox img {
+    width: 162px;
+    height: 108px;
+    flex-shrink: 0;
+    margin-bottom: 36px;
+  }
+  
+  .selected {
+    width: 193px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 22.5px;
+    background: hsl(213, 19%, 18%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+  }
+  
+  .message {
+    color:hsl(25, 97%, 53%);
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  
+  h1 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 7px;
+  }
+  
+  .text {
+    color: hsl(217, 12%, 63%);
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 340px;
+  }
+  
+  @media (max-width: 30em) {
+    .welcomeBox {
+      width: 300px;
+    }
+  
+    .text {
+      width: 250px;
+    }
+  }
